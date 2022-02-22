@@ -21,7 +21,7 @@ const ProfileCard = ({addTask,updateForm,onUpdateForm,showForm,settingShowForm,c
       <>
       <Button
           text={showForm}
-          color="hsl(246, 80%, 60%)"
+          color="red"
           fontColor="white"
           width="50%"
           boxShadow="4px 10px 20px purple"
@@ -65,7 +65,7 @@ const ProfileCard = ({addTask,updateForm,onUpdateForm,showForm,settingShowForm,c
    
     <Button
           text={showForm}
-          color="hsl(246, 80%, 60%)"
+          color="red"
           fontColor="white"
           width="50%"
           boxShadow="4px 10px 20px purple"
