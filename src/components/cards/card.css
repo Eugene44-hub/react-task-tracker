@@ -1,0 +1,27 @@
+.card {
+    color: white;
+    flex-basis: 32%;
+}
+
+#card-header {
+    transform: translate(0, 50%);
+}
+
+.card-remind {
+    background-color: black;
+    border-radius: 0 0 20px 20px;
+    transform: translate(0, -6%);
+    z-index: -1;
+}
+
+.card-text {
+    user-select: none;
+    transition: all 1s;
+}
+
+.card-content {
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 0 0 20px 20px;
+    transform: translate(0, -6%);
+    z-index: -1;
+}

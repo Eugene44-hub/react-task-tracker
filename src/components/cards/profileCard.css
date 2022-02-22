@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    color: white;
+    position: fixed;
+    left: 3%;
+    top: 3%
+}
+
+.card-header {
+    background-color: hsl(235, 45%, 61%);
+    flex: 1;
+    border-radius: 20px;
+    padding: 25px;
+    /* transform: translate(0, 3%); */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px 0 10px 20px;
+    /* margin-left: 20px; */
+}
+
+textarea {
+    resize: none;
+    height: 70px;
+    width: 100%;
+    box-shadow: 8px 8px 25px purple;
+    border-radius: 12px;
+}
+
+li:hover {
+    background-color: rgb(135, 137, 235);
+    transition: all .7s;
+}
+
+.card-footer {
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 0 0 20px 20px;
+    transform: translate(0, -25%);
+    z-index: -1;
+}
